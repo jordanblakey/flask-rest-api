@@ -2,6 +2,10 @@
 
 A basic REST API using Python, Flask, SQLAlchemy, and Marshmallow.
 
+## Documentation
+
+https://documenter.getpostman.com/view/5191616/RznJoHBL
+
 ## Setup
 
 ### Installation
@@ -13,7 +17,8 @@ pipenv install # Create a virtual environment and install dependencies
 pipenv shell # Enter the virtual environment
 python # Enter the Python shell
 from app import db # import the initilized SQLAlchemy instance from app.py
-db.create_all() # Seed the database
+db.create_all() # Create and Seed the database
+python app.py
 ```
 
 ## Technology
